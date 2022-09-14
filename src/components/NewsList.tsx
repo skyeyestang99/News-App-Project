@@ -20,8 +20,8 @@ export default class NewsList extends Component<
   };
   componentDidMount() {
     const { match, location } = this.props;
-    console.log(`localhost:3049/guardian${match.url}`);
-    fetch(`http://localhost:3049/guardian${match.url}`)
+    console.log(`localhost:3000/guardian${match.url}`);
+    fetch(`http://localhost:3000/guardian${match.url}`)
       .then((result) => {
         return result.json();
       })
