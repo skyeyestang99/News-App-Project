@@ -1,0 +1,81 @@
+.news-context {
+    height: 187px;
+    margin:20px;
+    width:1080px;
+    /*width:auto;*/
+
+}
+.news-context h1 {
+    /*font-family: Arial,Helvetica Neue,Helvetica,sans-serif;*/
+    font-family: Roboto,sans-serif;;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.news-context p {
+    /*width: 300px;*/
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.context-foot {
+    display: flex;
+}
+.date {
+    flex: 1;
+    font-style:italic;
+    font-weight: 500;
+}
+.context-foot :nth-child(2) {
+    border-radius: 4px;
+    /*padding: 1px;*/
+    font-weight: bold;
+    height: 22px;
+    /*width: 80px;*/
+    font-size: 14px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 0 5px 0 5px
+}
+.context-foot div{
+    background-color: #6D757B;
+    color: #FFFFFF;
+}
+#world{
+    background-color: #7C4EFF;
+    color: #FFFFFF;
+}
+#politics{
+    background-color: #419488;
+    color: #FEFFFF;
+}
+#business{
+    background-color: #4596EC;
+    color: #FDFEFF;
+}
+#technology{
+    background-color: #CEDD39;
+    color: #181A07;
+}
+#sports{
+    background-color: #F6C244;
+    color: #050401;
+}
+
+.guardian{
+    background-color: #13284A;
+    color: #F9F9FA;
+}
+.nytimes{
+    background-color: #DDDDDD;
+    color: #232323;
+}
+@media  screen and (max-width: 480px) {
+    .news-context{
+        width:auto;
+        height: auto;
+        margin-top: 10px;
+    }
+}

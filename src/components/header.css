@@ -1,0 +1,11 @@
+.NYTimes{
+    flex: 1;
+    font-style: italic;
+    font-weight: 500;
+}
+.Guardian{
+    float: right;
+}
+.react-switch{
+    align-self: flex-end;
+}

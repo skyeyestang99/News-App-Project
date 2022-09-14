@@ -1,0 +1,15 @@
+.sweet-loading p{
+    font-size: large;
+    font-weight: bolder;
+}
+.sweet-loading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+}
+.sweet-loading div div:nth-of-type(1) {
+    -webkit-animation: none;
+    animation: none;
+
+}
